@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Sales</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+
+
+    <body>
+    <div id="heading">
+      <h1>Average Sales Per Customer</h1>
+      <p id="ts">By Mahuya Bandopadhyay</p>
+    </div>
+    <div id="form">
+      <form id="inputForm">
+            <input
+          type="text"
+          class="inputText"
+          placeholder="Total Sales in NZ Dollar"
+          id="Sales-input"
+          autocomplete="off"
+          required
+          autofocus
+        />
+        <br><br><br>
+        <p>Type of Cloth </p>
+        <br>
+        <p>
+            <select id ="typeofcloth">
+                <option disabled selected value="0">Choose an Option</option>
+                <option value="0.5"> Silk</option>
+                <option value="0.4">Cotton</option>
+                <option value="0.3">Mixed</option>
+                <option value="0.2">Nylon</option>
+
+            </select>
+        
+        
+        <input
+          class="inputText"
+          type="text"
+          placeholder="Number of Customers"
+          id="Customer-input"
+          autocomplete="off"
+          required
+        />
+        <button type="submit" class="btn">
+          Calculate
+        </button>
+      </form>
+    </div>
+
+    <ul id="values">
+      <li>
+        <a href="#">
+            <p id= "demo">Content</p>
+          
+        </a>
+      </li>
+        </ul>
+    <script src="myscripts.js"></script>
+  </body>
+
+</html>
